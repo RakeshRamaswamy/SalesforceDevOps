@@ -1,12 +1,15 @@
-/**
- * @description       : All the basic calculator operations
- * @author            : Rakesh Ramaswamy
- * @group             : Docmation
- * @last modified on  : 01-13-2022
- * @last modified by  : Rakesh Ramaswamy
-**/
+/********************************************************************
+ * Version        Date          Name            Description
+ * ==================================================================
+ * V1.0         13-01-2022      Rakesh          Add Method implementation
+ * 
+**********************************************************************/
+
 public with sharing class Calculator {
     public Calculator() {
 
     }    
+    public integer add(integer a, integer b) {
+        return a+b;
+    }
 }
