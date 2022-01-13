@@ -1,7 +1,7 @@
 /**
- * @description       : 
+ * @description       : All the basic calculator operations
  * @author            : Rakesh Ramaswamy
- * @group             : 
+ * @group             : Docmation
  * @last modified on  : 01-13-2022
  * @last modified by  : Rakesh Ramaswamy
 **/
