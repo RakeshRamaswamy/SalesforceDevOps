@@ -7,7 +7,7 @@
   "[markdown]": {
 
     "editor.wordWrap": "on",
-    "editor.quickSuggestions": false
+    "editor.quickSuggestions": false,
     "terminal.integrated.shellArgs.windows": ["-ExecutionPolicy", "Bypass"]
   }
 }
