@@ -15,8 +15,10 @@ node {
     def SFDC_HOST = env.SFDC_HOST_DH
     def JWT_KEY_CRED_ID = env.JWT_CRED_ID_DH
     def CONNECTED_APP_CONSUMER_KEY=env.CONNECTED_APP_CONSUMER_KEY_DH
+    def PATH=env.Path
     
     println 'KEY IS'
+    println 'Path Env is: '+PATH
     println 'env value ==> '+env
     println 'JWT_KEY_CRED_ID ==> '+JWT_KEY_CRED_ID
     println 'HUB_ORG ==> '+HUB_ORG
