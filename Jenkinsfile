@@ -8,9 +8,9 @@ node {
     def RUN_ARTIFACT_DIR="tests/${BUILD_NUMBER}"
     def SFDC_USERNAME
     
-    def build = this.getProperty('binding').getVariable('build')
-    def listener = this.getProperty('binding').getVariable('listener')
-    def env = build.getEnvironment(listener)
+   // def build = this.getProperty('binding').getVariable('build')
+  //  def listener = this.getProperty('binding').getVariable('listener')
+   // def env = build.getEnvironment(listener)
     def HUB_ORG=env.HUB_ORG_DH
     def SFDC_HOST = env.SFDC_HOST_DH
     def JWT_KEY_CRED_ID = env.JWT_CRED_ID_DH
