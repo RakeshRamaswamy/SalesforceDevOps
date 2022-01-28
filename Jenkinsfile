@@ -16,19 +16,16 @@ node {
     def JWT_KEY_CRED_ID = env.JWT_CRED_ID_DH
     def CONNECTED_APP_CONSUMER_KEY=env.CONNECTED_APP_CONSUMER_KEY_DH
    // def CONNECTEDAPPCONSUMERKEY_DH=env.CONNECTEDAPPCONSUMERKEYDH
-    def PATH=env.Path
     
     println 'KEY IS'
-    println 'Path Env is: '+PATH
     println 'env value ==> '+env
     println 'env.HUB_ORG_DH ==> '+env.HUB_ORG_DH
     println 'JWT_KEY_CRED_ID ==> '+JWT_KEY_CRED_ID
     println 'HUB_ORG ==> '+HUB_ORG
     println 'SFDC_HOST ==> '+SFDC_HOST
     println 'CONNECTED_APP_CONSUMER_KEY ==> '+CONNECTED_APP_CONSUMER_KEY
-    // println 'CONNECTEDAPPCONSUMERKEY_DH ==> '+CONNECTEDAPPCONSUMERKEY_DH
-    // def toolbelt = tool 'toolbelt'
-    def toolbelt = env.toolbelt
+    def toolbelt = tool 'toolbelt'
+    // def toolbelt = env.toolbelt
     println 'toolbelt ==> '+toolbelt
 
     // -------------------------------------------------------------------------
