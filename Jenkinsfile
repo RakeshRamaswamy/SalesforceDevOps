@@ -28,7 +28,7 @@ node {
     println 'CONNECTED_APP_CONSUMER_KEY ==> '+CONNECTED_APP_CONSUMER_KEY
     // println 'CONNECTEDAPPCONSUMERKEY_DH ==> '+CONNECTEDAPPCONSUMERKEY_DH
     def toolbelt = tool 'toolbelt'
-
+    println 'toolbelt ==> '+toolbelt
 
     // -------------------------------------------------------------------------
     // Check out code from source control.
