@@ -27,7 +27,8 @@ node {
     println 'SFDC_HOST ==> '+SFDC_HOST
     println 'CONNECTED_APP_CONSUMER_KEY ==> '+CONNECTED_APP_CONSUMER_KEY
     // println 'CONNECTEDAPPCONSUMERKEY_DH ==> '+CONNECTEDAPPCONSUMERKEY_DH
-    def toolbelt = tool 'toolbelt'
+    // def toolbelt = tool 'toolbelt'
+    def toolbelt = env.toolbelt
     println 'toolbelt ==> '+toolbelt
 
     // -------------------------------------------------------------------------
